@@ -1,0 +1,30 @@
+{
+    "name": "metarush/pagination",
+    "type": "library",
+    "description": "Standalone pagination module that is not tied to any frameworks",
+    "keywords": [
+        "pagination",
+        "paginator"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "metarush/pagination contributors",
+            "homepage": "https://github.com/metarush/pagination/graphs/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MetaRush\\Pagination\\": "src",
+            "Tests\\": "tests\\unit"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^0.12",
+        "roave/security-advisories": "dev-master"
+    }
+}
